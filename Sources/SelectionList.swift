@@ -180,13 +180,13 @@ extension SelectionList: UITableViewDataSource, UITableViewDelegate {
         sendActions(for: [.valueChanged, .primaryActionTriggered])
     }
 
-    public func tableView(_ tableView: UITableView, shouldBeginMultipleSelectionInteractionAt indexPath: IndexPath) -> Bool {
-        return true
-    }
+//     public func tableView(_ tableView: UITableView, shouldBeginMultipleSelectionInteractionAt indexPath: IndexPath) -> Bool {
+//         return true
+//     }
 
-    public func tableView(_ tableView: UITableView, didBeginMultipleSelectionInteractionAt indexPath: IndexPath) {
-        tableView.isEditing = false
-    }
+//     public func tableView(_ tableView: UITableView, didBeginMultipleSelectionInteractionAt indexPath: IndexPath) {
+//         tableView.isEditing = false
+//     }
 }
 
 // MARK: - Selection Marks
